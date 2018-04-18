@@ -32,6 +32,7 @@ class Owner
   def buy_fish(name)
     fish = Fish.new(name)
     puts fish.name
+    puts self.pets
   end
 
 
