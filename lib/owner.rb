@@ -4,8 +4,9 @@ class Owner
 
   @@all = []
 
-  def initialize(name)
+  def initialize(name, pets = {fishes: [], cats: [], dogs: []})
     @name = name
+    @pets = pets
     @@all << self
   end
 
@@ -23,10 +24,6 @@ class Owner
 
   def say_species
     "I am a human."
-  end
-
-  def pets
-    @pets = {fishes: [], cats: [], dogs: []}
   end
 
   def buy_fish(name)
