@@ -34,6 +34,7 @@ class Owner
     puts fish.name
     fishes = self.pets[:fishes]
     fishes << fish
+    self.pets[:fishes]<<fish
     puts fishes
 
   end
