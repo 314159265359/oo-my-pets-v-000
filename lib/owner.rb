@@ -34,7 +34,7 @@ class Owner
     puts fish.name
     test = self.pets[:fishes].push(fish)
     puts test
-    puts self.pets[:fishes]
+    #puts self.pets[:fishes]
   end
 
 
