@@ -4,8 +4,8 @@ class Owner
 
   @@all = []
 
-  def initialize(name, pets = {fishes: [], cats: [], dogs: []})
-    @name = name
+  def initialize(species, pets = {fishes: [], cats: [], dogs: []})
+    @species = species
     @pets = pets
     @@all << self
   end
@@ -16,10 +16,6 @@ class Owner
 
   def self.reset_all
     @all = []
-  end
-
-  def species(species = "human")
-    @species = species
   end
 
   def say_species
