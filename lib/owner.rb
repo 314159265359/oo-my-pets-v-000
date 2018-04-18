@@ -34,7 +34,9 @@ class Owner
     puts fish.name
     test = self.pets[:fishes].push(fish)
     puts test
-    #puts self.pets[:fishes]
+    self.pets[:fishes].each do |fish|
+      puts fish.name
+    end
   end
 
 
