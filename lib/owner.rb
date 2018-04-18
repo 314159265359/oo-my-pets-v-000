@@ -60,7 +60,7 @@ class Owner
   end
 
   def sell_pets
-
+    @pets.map {|pet| pet.values[1] = "nervous"}
   end
 
   def list_pets
