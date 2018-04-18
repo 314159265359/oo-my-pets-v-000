@@ -41,4 +41,8 @@ class Owner
     @pets[:dogs] << dog
   end
 
+  def list_pets
+    @pets
+  end
+
 end
