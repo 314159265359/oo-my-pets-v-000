@@ -29,8 +29,8 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  def buy_fish
-    fish = Fish.new
+  def self.buy_fish
+    fish = Fish.new(name)
   end
 
 
