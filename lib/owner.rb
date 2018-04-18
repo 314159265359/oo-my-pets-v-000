@@ -33,6 +33,9 @@ class Owner
     fish = Fish.new(name)
     puts fish.name
     puts self.pets
+    puts self.pets[:fishes]
+    puts self.pets{:fishes}
+
   end
 
 
