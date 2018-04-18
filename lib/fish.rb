@@ -8,10 +8,10 @@ class Fish
   end
 
   def owner_name
-  if self.owner
-   self.owner.name
-  else nil
-  end
+    if self.owner
+      self.owner.name
+    else nil
+    end
 end
 
 
