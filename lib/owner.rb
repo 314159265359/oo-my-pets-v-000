@@ -47,6 +47,12 @@ class Owner
     end
   end
 
+  def play_with_cats
+    @pets[:cats].each do |cat|
+      cat.mood = "happy"
+    end
+  end
+
   def list_pets
     "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
