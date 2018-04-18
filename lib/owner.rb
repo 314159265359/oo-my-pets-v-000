@@ -33,6 +33,7 @@ class Owner
     fish = Fish.new(name)
     puts fish.name
     fishes = self.pets[:fishes]
+    fishes << fish
     puts fishes
 
   end
