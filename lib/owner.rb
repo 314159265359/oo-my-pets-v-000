@@ -29,7 +29,7 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  def buy_fish(name)
+  def self.buy_fish(name)
     fish = Fish.new(name)
     puts fish.name
     fishes = self.pets[:fishes]
