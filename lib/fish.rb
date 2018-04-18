@@ -7,7 +7,7 @@ class Fish
     @mood = mood
   end
 
-  def owner_name
+  def owner
     if self.owner
       self.owner.name
     else nil
